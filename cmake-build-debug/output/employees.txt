@@ -1,22 +1,22 @@
 ID         Last         First        Address                City               Prov   Postal     Phone           G   Age   Dep  Dept         U  Rate   
 ------------------------------------------------------------------------------------------------------------------------------------------------------
-W0888888   Cameron      Royce        4788 University Drive  Charlottetown      PEI    V6K-8B2    226-599-4489    M   22    1    factory      Y  16.25  
-W0177624   Henderson    Alberta      848 Wood Street        Moose Jaw          SK     M4P-9Y9    864-747-3449    F   60    0    factory      Y  45.00  
-W0933502   Grayson      Orlando      3022 Stanley Crescent  Calgary            AB     T6H-4N2    647-824-8490    M   29    1    factory      Y  22.50  
-W0265872   Bird         Barbie       17797 Carberry Trail   Zwicker Island     NF     Z9L-7U0    235-250-3611    M   45    6    factory      Y  26.25  
-W0065705   Preston      David        3824 Novick Lane       Burned Potato Falls BC     R5H-5O8    351-534-9270    M   64    2    factory      N  14.50  
-W0549113   Blackett     Tessa        8214 Carioca Trail     Haverstock Island  NB     E0I-2M3    751-971-4933    M   24    6    factory      N  12.50  
-W0319823   Dawson       Sylvie       12 Huron Street        Stellarton         NS     P4N-4H7    343-595-6121    F   26    3    office       Y  25.00  
-W0111279   Martin       Roman        8973 Fieldstone Ave    Tide Head          NF     Y7C-5C4    807-547-9496    M   27    2    office       N  27.00  
-W0737740   Sanderson    Kimmi        54303 Sachs Parkway    King's Cove        ON     K7V-3T7    709-768-1419    F   38    1    office       N  40.00  
 W0015115   Ornish       Isaiah       2 Leroy Hill           Bar Pond           QC     P5I-2T0    221-778-4244    M   65    4    office       Y  30.00  
 W0030049   Winters      Nyssa        8288 Surrey Street     Minasville         PEI    W5B-4L2    701-162-9768    M   51    2    office       N  15.00  
-W0644739   Bell         Moe          59932 Morningstar Road Westchester Station MB     D9X-7A1    801-675-4833    M   37    5    office       N  42.00  
-W0376228   Abbott       Gage         6 Spenser Parkway      Southwest Point    NF     T7H-7H0    675-799-8419    M   19    5    office       Y  23.25  
-W0152999   Johnson      Michaela     5904 Oriole Park       East Gore          NF     R7D-5K3    850-362-7956    M   32    2    office       Y  14.00  
-W0994010   Anderson     Celine       993 Poplar Crescent    Bay Roberts        NL     J5E-3L8    306-694-7095    F   34    1    sales        N  29.50  
-W0258694   Cameron      Chelsy       56 Twin Pines Drive    Kitimat            BC     K9N-2A9    430-468-1455    F   48    3    sales        Y  18.75  
-W0140959   Klein        Elijah       67890 Everett Park     Bluff Head         BC     W6K-0L1    996-567-3068    F   18    5    sales        Y  36.50  
+W0065705   Preston      David        3824 Novick Lane       Burned Potato Falls BC     R5H-5O8    351-534-9270    M   64    2    factory      N  14.50  
 W0082014   Powell       Albertina    9 Sunfield Plaza       Hornet Lake        NS     Z5O-8M2    853-337-7013    F   37    2    sales        Y  24.00  
-W0873270   Watson       Layla        15 Thackeray Place     Long Lake          AB     S7O-5X3    973-210-0163    M   57    3    sales        N  14.50  
+W0111279   Martin       Roman        8973 Fieldstone Ave    Tide Head          NF     Y7C-5C4    807-547-9496    M   27    2    office       N  27.00  
+W0140959   Klein        Elijah       67890 Everett Park     Bluff Head         BC     W6K-0L1    996-567-3068    F   18    5    sales        Y  36.50  
+W0152999   Johnson      Michaela     5904 Oriole Park       East Gore          NF     R7D-5K3    850-362-7956    M   32    2    office       Y  14.00  
+W0177624   Henderson    Alberta      848 Wood Street        Moose Jaw          SK     M4P-9Y9    864-747-3449    F   60    0    factory      Y  45.00  
+W0258694   Cameron      Chelsy       56 Twin Pines Drive    Kitimat            BC     K9N-2A9    430-468-1455    F   48    3    sales        Y  18.75  
+W0265872   Bird         Barbie       17797 Carberry Trail   Zwicker Island     NF     Z9L-7U0    235-250-3611    M   45    6    factory      Y  26.25  
+W0319823   Dawson       Sylvie       12 Huron Street        Stellarton         NS     P4N-4H7    343-595-6121    F   26    3    office       Y  25.00  
+W0376228   Abbott       Gage         6 Spenser Parkway      Southwest Point    NF     T7H-7H0    675-799-8419    M   19    5    office       Y  23.25  
+W0549113   Blackett     Tessa        8214 Carioca Trail     Haverstock Island  NB     E0I-2M3    751-971-4933    M   24    6    factory      N  12.50  
+W0644739   Bell         Moe          59932 Morningstar Road Westchester Station MB     D9X-7A1    801-675-4833    M   37    5    office       N  42.00  
 W0680661   Kennedy      Grady        81855 Cottonwood Crossing Mathesons Island   AB     W9E-9L3    718-879-1706    F   43    4    sales        Y  13.00  
+W0737740   Sanderson    Kimmi        54303 Sachs Parkway    King's Cove        ON     K7V-3T7    709-768-1419    F   38    1    office       N  40.00  
+W0873270   Watson       Layla        15 Thackeray Place     Long Lake          AB     S7O-5X3    973-210-0163    M   57    3    sales        N  14.50  
+W0888888   Cameron      Royce        4788 University Drive  Charlottetown      PEI    V6K-8B2    226-599-4489    M   22    1    factory      Y  16.25  
+W0933502   Grayson      Orlando      3022 Stanley Crescent  Calgary            AB     T6H-4N2    647-824-8490    M   29    1    factory      Y  22.50  
+W0994010   Anderson     Celine       993 Poplar Crescent    Bay Roberts        NL     J5E-3L8    306-694-7095    F   34    1    sales        N  29.50  

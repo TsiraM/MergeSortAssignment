@@ -1,7 +1,7 @@
 /*
 * File: operations.cpp
 * Description: Handles output file creation and formatted display of employee data.
-*              Saves sorted results to ../output/employees.txt.
+*              Saves sorted results to output/employees.txt.
 */
 
 #include "operations.h"
@@ -12,7 +12,7 @@
 
 // Always returns the single output path
 std::string get_output_filename() {
-    return "output/employees.txt";
+    return "../output/employees.txt";
 }
 
 // Create ../output folder cross-platform
@@ -25,12 +25,11 @@ void ensure_output_folder_exists() {
 }
 
 // Save sorted results to ../output/employees.txt
-#include <iomanip>
 
 bool save_sorted_employees(const std::vector<Employee>& employees) {
     ensure_output_folder_exists();
 
-    std::string output_file = "output/employees.txt";
+    std::string output_file = "../output/employees.txt";
     std::ofstream out(output_file);
 
     if (!out) {
@@ -89,7 +88,7 @@ std::string trim_display(const std::string& str, size_t width) {
 
 // Print a table of the first n employees
 void print_first_n_employees(const std::vector<Employee>& employees, int n, const std::string& title) {
-    std::cout << "\n" << title << " (showing first " << std::min(n, (int)employees.size()) << " of " << employees.size() << " records)\n";
+    std::cout << "\n" << title << " (showing first " << std::min(n, static_cast<int>(employees.size())) << " of " << employees.size() << " records)\n";
     std::cout << std::string(120, '-') << '\n';
 
     std::cout << std::left
@@ -109,7 +108,7 @@ void print_first_n_employees(const std::vector<Employee>& employees, int n, cons
 
     std::cout << std::string(120, '-') << '\n';
 
-    for (int i = 0; i < n && i < (int)employees.size(); ++i) {
+    for (int i = 0; i < n && i < static_cast<int>(employees.size()); ++i) {
         const auto& emp = employees[i];
         std::cout << std::setw(10) << trim_display(emp.employee_id, 10) << ' '
                   << std::setw(12) << trim_display(emp.last_name, 12)   << ' '
@@ -129,5 +128,5 @@ void print_first_n_employees(const std::vector<Employee>& employees, int n, cons
 
 // Full display function (if needed)
 void print_employees_full(const std::vector<Employee>& employees) {
-    print_first_n_employees(employees, (int)employees.size(), "Sorted Employee List (Full)");
+    print_first_n_employees(employees, static_cast<int>(employees.size()), "Sorted Employee List (Full)");
 }
